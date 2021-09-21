@@ -197,7 +197,7 @@ export class Exchange extends React.Component<
     switch (exchange.token) {
       case TOKEN.BUSD:
         return {
-          label: 'BUSD',
+          label: 'WPKT',
           maxAmount:
             exchange.mode === EXCHANGE_MODE.ONE_TO_ETH
               ? user.hmyBUSDBalance
@@ -247,7 +247,7 @@ export class Exchange extends React.Component<
 
       default:
         return {
-          label: 'BUSD',
+          label: 'WPKT',
           maxAmount:
             exchange.mode === EXCHANGE_MODE.ONE_TO_ETH
               ? user.hmyBUSDBalance
@@ -371,7 +371,7 @@ export class Exchange extends React.Component<
                 }}
               >
                 <img className={styles.imgToken} src="/busd.svg" />
-                <Text>BUSD</Text>
+                <Text>WPKT</Text>
               </Box>
             )}
 
@@ -613,7 +613,7 @@ export class Exchange extends React.Component<
                       {`${NETWORK_BASE_TOKEN[exchange.network]} address`}
                     </Text>
                     <Text color="#9698a7" size="small">
-                      only use your wallet address, never use contract address
+                      only use your wallet address, never use contract address2
                     </Text>
                   </Box>
                   <Input
@@ -672,7 +672,7 @@ export class Exchange extends React.Component<
                       ONE Address
                     </Text>
                     <Text color="#9698a7" size="small">
-                      only use your wallet address, never use contract address
+                      only use your wallet address, never use contract address2
                     </Text>
                   </Box>
                   <Input

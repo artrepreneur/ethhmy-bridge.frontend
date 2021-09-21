@@ -8,7 +8,7 @@ import { Icon } from 'components/Base/components/Icons';
 
 const faqConfig = [
   {
-    label: 'What is Horizon bridge?',
+    label: 'What is Horizon1 bridge?',
     text: () => (
       <p>
         Horizon is a cross-chain bridge that allows exchange of crypto assets
